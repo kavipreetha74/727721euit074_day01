@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.navbar li.login-btn a {
+  background-color: rgb(242, 73, 73);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navbar li.login-btn a:hover {
+  background-color: rgb(255,0,0);
+}
+
+/* Featured Products Section */
+.featured-section {
+  margin-top: 40px;
+}
+
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+.product-buttons {
+  margin-top: 20px;
+}
+
+.shop-now-btn,
+.add-to-cart-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.add-to-cart-btn {
+  background-color: green;
+}
+
+.shop-now-btn:hover,
+.add-to-cart-btn:hover {
+  background-color: lightblue;
+}
+
+/* Promotions Section */
+.promotions-section {
+  margin-top: 40px;
+}
+
+.promotions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.promotion-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.promotion-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.promotion-description {
+  margin-top: 5px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  margin-top: 40px;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.review-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.review-comment {
+  margin-top: 10px;
+}
+
+.review-name {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Header Section */
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 16px;
+  color: #5c5c5c;
+  margin-bottom: 20px;
+}
+
+.header-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.header-link:hover {
+  background-color: rgb(118, 219, 253);
+}
