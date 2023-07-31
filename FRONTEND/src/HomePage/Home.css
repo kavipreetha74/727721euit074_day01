@@ -1,0 +1,142 @@
+
+
+#login-btn{
+    margin-right: 0%;
+}
+
+#slider{
+    width: 100%;
+    height: 85%;
+    transition: 2s ease-in-out;
+}
+.babyshop{
+    display: flex;
+    margin-top: 40px;
+}
+#titlebaby{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 170px;
+    
+}
+#btnbaby{
+    margin-top: 70px;
+    margin-left: 500px;
+    background-color: #FF4B2B;
+    border: none;
+    padding: 10px;
+    border-radius: 0.2cm;
+    width: 100px;
+    color: whitesmoke;
+    font-family: 'Londrina Solid', cursive;
+    font-size: larger;
+
+}
+#babyp{
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin-left: 100px;
+}
+
+#start{
+    width: 20%;
+    padding: 15px;
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: xx-large;
+    position: relative;
+    margin-top:33%;
+    left: 40%;
+    border-radius: 0.4cm;
+    cursor: pointer;
+}
+
+#img{
+    position: absolute;
+    opacity: 0.75;
+}
+
+
+
+
+
+.section{
+    margin-left: 40%;
+    display: flex;
+    width: max-content;
+
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+.login{
+    margin-left:30%;
+    background: transparent;
+}
+
+#login{
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.body img{
+    width: 100%;
+    height: 89%;
+}
+
+.login:hover{
+    transition: ease-in-out 0.3s;
+}
+
+.body{
+    transition: 2s ease-in-out;
+}
+.head1{
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 50px;
+    margin-top: 100px;
+    /* font:  3rem sans-serif; */
+    /* text-shadow: 2px 2px 8px #50d8f7; */
+}
+.ourbrands{
+    display: flex;
+    background-color: blueviolet;
+}
+
+.ourbrands img{
+    width: 200px;
+    padding: 40px;
+    cursor: pointer;
+    /* margin-left: 60px; */
+
+}
+.ourbrands img:hover{
+    /* width: 250px; */
+    /* padding: 40px; */
+    /* width: ; */
+    cursor: pointer;
+    /* margin-left: 60px; */
+    box-shadow: 0 8px 15px black;
+
+}
+
+.img1{
+    display: flex;
+}
+.head2{
+    background-color: rgb(170, 225, 20);
+    text-align: center;
+    font-size: 40px;
+    height: 60px;
+}
